@@ -32,7 +32,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  
           
       - name: Install Requirements
-        run:  pip install flask-wtf
+        run:  pip install Flask-WTF
 
   Deploy:
     needs: Build
